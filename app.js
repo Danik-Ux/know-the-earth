@@ -1,6 +1,6 @@
 var map = L.map('map').setView([0, 0], 2);
 
-L.tileLayer('https://services.sentinel-hub.com/ogc/wms/YOUR_INSTANCE_ID?layers=TRUE-COLOR&request=GetMap&styles=&format=image/jpeg&tilematrixset=EPSG:3857&tile={z}/{x}/{y}', {
+L.tileLayer('https://services.sentinel-hub.com/ogc/wms/8f44a8b8-ccde-4121-95c8-c0735d7c24aa?layers=TRUE-COLOR&request=GetMap&styles=&format=image/jpeg&tilematrixset=EPSG:3857&tile={z}/{x}/{y}', {
     maxZoom: 18,
     attribution: '&copy; <a href="https://www.sentinel-hub.com/">Sentinel Hub</a>'
 }).addTo(map);
